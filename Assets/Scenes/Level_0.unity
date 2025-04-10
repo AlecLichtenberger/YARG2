@@ -181,7 +181,11 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
+<<<<<<< Updated upstream
   orthographic size: 500
+=======
+  orthographic size: 1000
+>>>>>>> Stashed changes
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -206,7 +210,11 @@ Transform:
   m_GameObject: {fileID: 420014141}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 1068.9998, y: 1135.9998, z: 0}
+=======
+  m_LocalPosition: {x: 1000, y: 600, z: -10}
+>>>>>>> Stashed changes
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -232,7 +240,10 @@ MonoBehaviour:
   m_Cameras: []
   m_RendererIndex: -1
   m_VolumeLayerMask:
+<<<<<<< Updated upstream
     serializedVersion: 2
+=======
+>>>>>>> Stashed changes
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
@@ -269,6 +280,10 @@ GameObject:
   - component: {fileID: 747803634}
   - component: {fileID: 747803633}
   - component: {fileID: 747803636}
+<<<<<<< Updated upstream
+=======
+  - component: {fileID: 747803637}
+>>>>>>> Stashed changes
   m_Layer: 2
   m_Name: Coin
   m_TagString: Untagged
@@ -355,7 +370,11 @@ SpriteRenderer:
   m_Size: {x: 2.04, y: 1.81}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+<<<<<<< Updated upstream
   m_WasSpriteAssigned: 1
+=======
+  m_WasSpriteAssigned: 0
+>>>>>>> Stashed changes
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &747803635
@@ -367,8 +386,13 @@ Transform:
   m_GameObject: {fileID: 747803632}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< Updated upstream
   m_LocalPosition: {x: -211, y: 779, z: 0}
   m_LocalScale: {x: 32.465805, y: 34.666996, z: 1}
+=======
+  m_LocalPosition: {x: -224.4, y: 654.4, z: 0}
+  m_LocalScale: {x: 37.286976, y: 39.815044, z: 1.1485}
+>>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 842416267}
@@ -409,6 +433,22 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 1.02
+<<<<<<< Updated upstream
+=======
+--- !u!114 &747803637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747803632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c50674f026d4efa4c88e7a9ca1450691, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 200
+>>>>>>> Stashed changes
 --- !u!1 &842416266
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,11 +501,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+=======
+  m_RootRaycaster: {fileID: 0}
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    m_Bits: 4294967295
+  m_Canvas: {fileID: 0}
+>>>>>>> Stashed changes
 --- !u!114 &842416269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -488,6 +537,10 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+<<<<<<< Updated upstream
+=======
+  m_Canvas: {fileID: 842416270}
+>>>>>>> Stashed changes
   m_PresetInfoIsWorld: 0
 --- !u!223 &842416270
 Canvas:
@@ -543,8 +596,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SendPointerHoverToParent: 1
+<<<<<<< Updated upstream
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
+=======
+  m_EventSystem: {fileID: 0}
+  m_InputOverride: {fileID: 0}
+  m_DefaultInput: {fileID: 0}
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_TrackedDeviceDragThresholdMultiplier: 2
+>>>>>>> Stashed changes
   m_XRTrackingOrigin: {fileID: 0}
   m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
@@ -573,9 +635,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
+=======
+  m_SystemInputModules: []
+  m_CurrentInputModule: {fileID: 0}
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+  m_CurrentSelected: {fileID: 0}
+  m_HasFocus: 1
+  m_SelectionGuard: 0
+  m_Started: 0
+  m_IsTrackingUIToolkitPanels: 0
+>>>>>>> Stashed changes
 --- !u!4 &1217953298
 Transform:
   m_ObjectHideFlags: 0
@@ -601,6 +676,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1307012509}
   - component: {fileID: 1307012510}
+<<<<<<< Updated upstream
+=======
+  - component: {fileID: 1307012512}
+  - component: {fileID: 1307012511}
+>>>>>>> Stashed changes
   m_Layer: 2
   m_Name: Ship
   m_TagString: Untagged
@@ -617,7 +697,11 @@ Transform:
   m_GameObject: {fileID: 1307012508}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< Updated upstream
   m_LocalPosition: {x: -200, y: 425, z: 0}
+=======
+  m_LocalPosition: {x: -226, y: 49, z: 0}
+>>>>>>> Stashed changes
   m_LocalScale: {x: 86.232414, y: 81.0772, z: 46.865437}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -675,9 +759,88 @@ SpriteRenderer:
   m_Size: {x: 4.59, y: 3.68}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+<<<<<<< Updated upstream
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!50 &1307012511
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307012508}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &1307012512
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307012508}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.12, y: 3.94}
+    newSize: {x: 4.59, y: 3.68}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 5.12, y: 3.94}
+  m_EdgeRadius: 0
+>>>>>>> Stashed changes
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
