@@ -182,7 +182,11 @@ Camera:
   field of view: 60
   orthographic: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   orthographic size: 500
+=======
+  orthographic size: 1000
+>>>>>>> Stashed changes
 =======
   orthographic size: 1000
 >>>>>>> Stashed changes
@@ -211,7 +215,11 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 1068.9998, y: 1135.9998, z: 0}
+=======
+  m_LocalPosition: {x: 1000, y: 600, z: -10}
+>>>>>>> Stashed changes
 =======
   m_LocalPosition: {x: 1000, y: 600, z: -10}
 >>>>>>> Stashed changes
@@ -241,7 +249,10 @@ MonoBehaviour:
   m_RendererIndex: -1
   m_VolumeLayerMask:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     serializedVersion: 2
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     m_Bits: 1
@@ -281,6 +292,10 @@ GameObject:
   - component: {fileID: 747803633}
   - component: {fileID: 747803636}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+  - component: {fileID: 747803637}
+>>>>>>> Stashed changes
 =======
   - component: {fileID: 747803637}
 >>>>>>> Stashed changes
@@ -371,7 +386,11 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_WasSpriteAssigned: 1
+=======
+  m_WasSpriteAssigned: 0
+>>>>>>> Stashed changes
 =======
   m_WasSpriteAssigned: 0
 >>>>>>> Stashed changes
@@ -387,8 +406,13 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalPosition: {x: -211, y: 779, z: 0}
   m_LocalScale: {x: 32.465805, y: 34.666996, z: 1}
+=======
+  m_LocalPosition: {x: -224.4, y: 654.4, z: 0}
+  m_LocalScale: {x: 37.286976, y: 39.815044, z: 1.1485}
+>>>>>>> Stashed changes
 =======
   m_LocalPosition: {x: -224.4, y: 654.4, z: 0}
   m_LocalScale: {x: 37.286976, y: 39.815044, z: 1.1485}
@@ -434,7 +458,10 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Radius: 1.02
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!114 &747803637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -448,6 +475,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 200
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &842416266
 GameObject:
@@ -502,18 +532,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
 =======
+=======
+>>>>>>> Stashed changes
   m_RootRaycaster: {fileID: 0}
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
     m_Bits: 4294967295
   m_Canvas: {fileID: 0}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!114 &842416269
 MonoBehaviour:
@@ -538,6 +574,10 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+  m_Canvas: {fileID: 842416270}
+>>>>>>> Stashed changes
 =======
   m_Canvas: {fileID: 842416270}
 >>>>>>> Stashed changes
@@ -597,15 +637,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SendPointerHoverToParent: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
 =======
+=======
+>>>>>>> Stashed changes
   m_EventSystem: {fileID: 0}
   m_InputOverride: {fileID: 0}
   m_DefaultInput: {fileID: 0}
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
   m_TrackedDeviceDragThresholdMultiplier: 2
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   m_XRTrackingOrigin: {fileID: 0}
   m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
@@ -636,10 +682,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 =======
+=======
+>>>>>>> Stashed changes
   m_SystemInputModules: []
   m_CurrentInputModule: {fileID: 0}
   m_FirstSelected: {fileID: 0}
@@ -650,6 +699,9 @@ MonoBehaviour:
   m_SelectionGuard: 0
   m_Started: 0
   m_IsTrackingUIToolkitPanels: 0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!4 &1217953298
 Transform:
@@ -677,6 +729,11 @@ GameObject:
   - component: {fileID: 1307012509}
   - component: {fileID: 1307012510}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+  - component: {fileID: 1307012512}
+  - component: {fileID: 1307012511}
+>>>>>>> Stashed changes
 =======
   - component: {fileID: 1307012512}
   - component: {fileID: 1307012511}
@@ -698,7 +755,11 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalPosition: {x: -200, y: 425, z: 0}
+=======
+  m_LocalPosition: {x: -226, y: 49, z: 0}
+>>>>>>> Stashed changes
 =======
   m_LocalPosition: {x: -226, y: 49, z: 0}
 >>>>>>> Stashed changes
@@ -760,10 +821,13 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 =======
+=======
+>>>>>>> Stashed changes
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
@@ -840,6 +904,9 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 5.12, y: 3.94}
   m_EdgeRadius: 0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
