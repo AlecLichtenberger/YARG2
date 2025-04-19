@@ -20,6 +20,13 @@ public class SlowSpawner : MonoBehaviour
 
     void SpawnCoin()
     {
-        Instantiate(Coin, transform.position, Quaternion.identity);
+        if(Coin != null){
+            Vector3 randomOffset = new Vector3(Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, 0.5f), 0f);
+        Instantiate(Coin, transform.position + randomOffset, Quaternion.identity);
+        }
+        else {
+            Debug.LogWarning("Coin prefab is missing");
+        }
+        
     }
 }
